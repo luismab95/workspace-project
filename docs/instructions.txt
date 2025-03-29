@@ -7,18 +7,18 @@ After cloning all repository you must do the following activities
 
     2.- Create a docker container with docker files extracted.
             - postgres
-            - redis
-            - mongo
 
     3.- Install dependences in each repository.
 
     4.- Configure a API GATEWAY for MS repository
             - Use express gateway or any that you prefer
 
-    5.- Configure all .env files in all repository.
+    5.- Build docker image for lib-styles and get urlStatics
 
-    6.- Start all repository
-            - for MS run `npm run start:dev`
-            - for FRONT run `npm run start`
+    6.- Configure all .env files in all repository.
+
+    7.- Start all repository
+            - for MS run `npm run dev`
+            - for MF run `npm run start`
 
 This is all enjoy =)
